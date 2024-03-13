@@ -181,7 +181,23 @@
             <option value="etc">기타</option>
         </select>
         <button>제출</button>
-
     </form>
+
+    <!-- textarea 태그 -->
+    <h2>textarea태그</h2>
+    <p>input type="text"와 비슷하지만 여러 줄을 입력할 수 있고 input태그와 달리
+        세로나 가로로 크기 조절이 가능하다.
+        (css속성인 resize로 크기 조절을 고정할 수도 있고 범위를 벗 어나면 스크롤 바가 생긴다.)
+        (추후 우리가 javascript를 통해 textarea에 있는 값을 다룰 때는 innerHTML/innerTEXT가 아닌
+        value라는 개념으로 들어있는 값을 다루게 된다.)
+    </p>
+    <form action="">
+        <textarea name="textarea" cols="30" rows="10" style="resize: none">abc</textarea>
+        <button>전송</button>&nbsp;<button type="reset">초기화</button>
+    </form>
+
+
+
+
 </body>
 </html>
